@@ -31,10 +31,11 @@ pip install beautifulsoup4 requests pandas
 4. Open a terminal or command prompt.
 5. Navigate to the directory where the script is saved.
 6. Run the script using Python:
+
    ```bash
    python gazette_scraper.py
    ```
-7. Once the script completes its execution, you will find a CSV file named `extracted_notices.csv` in the same directory, containing all the extracted data.
+8. Once the script completes its execution, you will find a CSV file named `extracted_notices.csv` in the same directory, containing all the extracted data.
 
 ## Configuration
 The script is configured to scrape the first 15 pages of The Gazette's notice section by default. You can modify the `PARAMS` dictionary within the script to change the search criteria, such as categories, notice types, location details, and date ranges.
